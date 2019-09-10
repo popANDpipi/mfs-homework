@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>码蜂社前端例子</title>
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta http-equiv="refresh" content="10">
+</head>
+
+<body>
+    <form>
+        <P>邮箱：<input type="email" required/></P>
+        <p>数字：<input type="number" pattern="^\d*[02468]$"></p>
+        <P>
+            城市：<input type="text" list="city" />
+            <datalist id="city">
+                <option value="北京">beijing</option>
+                <option value="上海">shanghai</option>
+                <option value="广州">guangzhou</option>
+                <option value="深圳">shenzhen</option>
+            </datalist>
+        </P>
+    </form>
+</body>
+
+</html>
