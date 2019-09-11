@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0
+        }
+        
+        * {
+            box-sizing: border-box
+        }
+        
+        .left {
+            float: left;
+            width: 100px;
+        }
+        
+        .left a {
+            display: block
+        }
+        
+        .right {
+            float: left;
+            width: calc(100% - 102px);
+            height: 100vh
+        }
+    </style>
+</head>
+
+<body>
+    <div class="left">
+        <a href="iframe.html" id="iframe1" name="iframe.html" target="iframe1">刷新</a>
+    </div>
+    <iframe id="iframe1" name="iframe1" src="iframe.html" class="right"></iframe>
+</body>
+
+</html>
