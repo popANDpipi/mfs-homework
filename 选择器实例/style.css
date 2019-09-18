@@ -1,0 +1,13 @@
+.leader {}
+
+.leader .choose {
+    display: none;
+}
+
+.leader:hover {
+    color: red;
+}
+
+.leader:hover .choose {
+    display: block;
+}
