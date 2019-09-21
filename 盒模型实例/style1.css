@@ -1,0 +1,9 @@
+.box {
+    border: 1px solid red;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.box span {
+    background-color: green;
+}
