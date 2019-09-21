@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    width: 500px;
+    margin: 50px auto;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    float: left;
+    position: relative;
+}
+
+.menu ul li ul {
+    display: none;
+}
+
+.menu ul li:hover a {
+    color: rgb(255, 255, 255);
+    background: rgb(250, 0, 0);
+}
+
+.menu ul li:hover ul {
+    display: block;
+    position: absolute;
+    top: 25px;
+    width: 100px;
+}
+
+.menu ul li:hover ul li a {
+    display: block;
+    background: rgb(250, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.menu ul li:hover ul li a:hover {
+    background: rgb(200, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.menu ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border-width: 1px 1px 0 0;
+    background: rgb(163, 23, 218);
+    /*居然可以用点的。。。*/
+    line-height: 25px;
+    font-size: 12px;
+}
