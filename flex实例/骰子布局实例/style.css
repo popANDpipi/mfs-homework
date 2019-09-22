@@ -1,0 +1,101 @@
+.point {
+    width: 25px;
+    height: 25px;
+    margin: 25px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.box1 {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    background-color: rgb(207, 205, 205);
+}
+
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+    background-color: rgb(207, 205, 205);
+}
+
+.box2 .little1 {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.box2 .little2 {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.box3 .little1 {
+    display: flex;
+    height: 200px;
+    width: 64px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.box3 .little2 {
+    display: flex;
+    height: 200px;
+    width: 64px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box3 .little3 {
+    display: flex;
+    height: 200px;
+    width: 64px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.box4 .little {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box5 .little1,
+.box5 .little3 {
+    display: flex;
+    height: 200px;
+    width: 64px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.box5 .little2 {
+    display: flex;
+    height: 200px;
+    width: 64px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box4 .little {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-between;
+}

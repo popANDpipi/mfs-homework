@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.head,
+.foot {
+    text-align: center;
+    flex: none;
+    background: rgb(19, 122, 153);
+    height: 50px;
+    line-height: 50px;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    flex: 1, 1, auto;
+}
+
+.container .left {
+    width: 100px;
+    background: rgb(160, 117, 26)
+}
+
+.container .right {
+    width: 100px;
+    background: rgb(160, 117, 26)
+}
+
+.container .middle {
+    flex: 1;
+    background: rgb(86, 160, 26)
+}
