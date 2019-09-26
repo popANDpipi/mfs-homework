@@ -1,0 +1,28 @@
+.function {
+    position: fixed;
+    width: 1300px;
+    background: yellow;
+    align-items: center;
+    font-size: 16px;
+    margin: 0 auto;
+    padding-top: 22px;
+    padding-right: 200px;
+    padding-left: 200px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.log {
+    position: relative;
+    top: -30px;
+    right: -70%;
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+}
