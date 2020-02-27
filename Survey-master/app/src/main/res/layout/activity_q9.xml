@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Q9Activity"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="30dp"
+        android:paddingBottom="0dp"
+        android:text="Question 9"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:gravity="left"
+        android:text="what characteristic do you think is most important to evaluate a phone?"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/qnine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/rbtn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="Appearance" />
+
+        <RadioButton
+            android:id="@+id/rbtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="Price" />
+
+        <RadioButton
+            android:id="@+id/rbtn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="Performance" />
+
+        <RadioButton
+            android:id="@+id/rbtn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="Others" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="NEXT"
+        android:onClick="next9"/>
+</LinearLayout>
