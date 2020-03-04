@@ -48,7 +48,7 @@ public class Q1Activity extends AppCompatActivity {
         Intent intent = new Intent(this,Q2Activity.class);
         intent.putExtra("Q1result",result_string);
         startActivity(intent);
-        System.exit(0);
+        this.finish();
     }
 }
 

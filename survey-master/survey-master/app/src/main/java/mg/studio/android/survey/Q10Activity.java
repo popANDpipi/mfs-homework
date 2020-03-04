@@ -38,6 +38,6 @@ public class Q10Activity extends AppCompatActivity {
         intent = new Intent(this, Q11Activity.class);
         intent.putExtra("Q10result",result_string);
         startActivity(intent);
-        System.exit(0);
+        this.finish();
     }
 }

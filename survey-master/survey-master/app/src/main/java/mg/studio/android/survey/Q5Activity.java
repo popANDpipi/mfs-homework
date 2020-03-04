@@ -50,6 +50,6 @@ public class Q5Activity extends AppCompatActivity {
         intent = new Intent(this,Q6Activity.class);
         intent.putExtra("Q5result",result_string);
         startActivity(intent);
-        System.exit(0);
+        this.finish();
     }
 }

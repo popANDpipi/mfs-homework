@@ -42,6 +42,6 @@ public class Q12Activity extends AppCompatActivity {
         intent = new Intent(this, ResultActivity.class);
         intent.putExtra("Q12result",result_string);
         startActivity(intent);
-        System.exit(0);
+        this.finish();
     }
 }

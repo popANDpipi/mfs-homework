@@ -21,6 +21,6 @@ public class MainActivity extends AppCompatActivity {
     public void start (View view){
         Intent intent = new Intent(this,Q1Activity.class);
         startActivity(intent);
-        System.exit(0);
+        this.finish();
     }
 }

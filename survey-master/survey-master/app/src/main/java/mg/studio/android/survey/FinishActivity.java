@@ -17,7 +17,7 @@ public class FinishActivity extends AppCompatActivity {
     }
     public void finish(View view){
         if(r0.isChecked()) {
-            System.exit(0);
+            this.finish();
         }
     }
 }

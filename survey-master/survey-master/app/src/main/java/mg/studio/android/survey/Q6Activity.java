@@ -24,6 +24,6 @@ public class Q6Activity extends AppCompatActivity {
         intent = new Intent(this,Q7Activity.class);
         intent.putExtra("Q6result",result_string);
         startActivity(intent);
-        System.exit(0);
+        this.finish();
     }
 }

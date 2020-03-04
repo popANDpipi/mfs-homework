@@ -30,6 +30,6 @@ public class Q11Activity extends AppCompatActivity {
         intent = new Intent(this, Q12Activity.class);
         intent.putExtra("Q11result",result_string);
         startActivity(intent);
-        System.exit(0);
+        this.finish();
     }
 }

@@ -42,6 +42,6 @@ public class Q7Activity extends AppCompatActivity {
         intent = new Intent(this,Q8Activity.class);
         intent.putExtra("Q7result",result_string);
         startActivity(intent);
-        System.exit(0);
+        this.finish();
     }
 }
