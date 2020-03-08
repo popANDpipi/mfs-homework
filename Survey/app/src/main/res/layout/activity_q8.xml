@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Q8Activity"
+    android:orientation="vertical">
+    <TextView
+    android:id="@+id/txt1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:paddingLeft="30dp"
+    android:paddingBottom="0dp"
+    android:text="Question 8"
+    android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:gravity="left"
+        android:text="which brand of phone will you choose if you are going to buy a new one?"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/qeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/q8rbtn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="Iphone" />
+
+        <RadioButton
+            android:id="@+id/q8rbtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="Nokia" />
+
+        <RadioButton
+            android:id="@+id/q8rbtn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="Samsung" />
+
+        <RadioButton
+            android:id="@+id/q8rbtn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="MI" />
+
+        <RadioButton
+            android:id="@+id/q8rbtn5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="Lenovo" />
+
+        <RadioButton
+            android:id="@+id/q8rbtn6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="Sony" />
+
+        <RadioButton
+            android:id="@+id/q8rbtn7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="Others" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="NEXT"
+        android:onClick="next8"/>
+</LinearLayout>
